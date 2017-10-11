@@ -1,0 +1,19 @@
+body {
+    background-image: url("./img/woodenBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.book {
+    height: 900px;
+    width: 1151px;
+    /*background-color: aquamarine;*/
+    background-image: url("./img/book.png");
+    background-size: 1130px 900px;
+    background-repeat: no-repeat;
+    border: dashed;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
