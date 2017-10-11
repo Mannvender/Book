@@ -1,4 +1,4 @@
-# NewsFolio
+# The Profile Book
 a template website 
 
 our aim is to build a template portfolio website 
