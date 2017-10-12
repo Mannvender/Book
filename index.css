@@ -24,6 +24,7 @@ body {
     font-family: "Liberation Serif";
     font-weight: bolder;
 }
+
 #title {
     font-weight: bolder;
     font-size: 70px;
@@ -31,9 +32,51 @@ body {
     margin-right: 70px;
     margin-bottom: 10px;
 }
+
 .Rimg {
     height: 50px;
 
     margin-left: 220px;
     margin-top: 250px;
 }
+
+.homeB {
+    position: fixed;
+    alignment: left;
+    top: 100px;
+    left: 0px;
+}
+
+.contentB {
+    /*background-attachmet: fixed;*/
+    top: 200px;
+    position: fixed;
+    alignment: left;
+    top: 200px;
+    left: 0px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-left: 0px;
+}
+
+.bText {
+    font-weight: bolder;
+    writing-mode: tb-rl;
+    margin-left: 37px;
+    margin-top: -5px;
+    font-family: fantasy;
+    color: black;
+    font-size: larger;
+
+}
+
+.leftPage {
+    position: relative;
+}
+
