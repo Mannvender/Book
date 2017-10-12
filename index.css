@@ -26,11 +26,12 @@ body {
 }
 
 #title {
+    position: relative;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 65px;
     float: right;
-    margin-right: 70px;
-    margin-bottom: 10px;
+    top: 50px;
+    right: 110px;
 }
 
 .Rimg {
@@ -45,6 +46,16 @@ body {
     alignment: left;
     top: 100px;
     left: 0px;
+}
+
+.bText:hover {
+    font-weight: bolder;
+    writing-mode: tb-rl;
+    margin-left: 37px;
+    margin-top: -5px;
+    font-family: fantasy;
+    color: white;
+    font-size: larger;
 }
 
 .contentB {
@@ -77,6 +88,12 @@ body {
 }
 
 .leftPage {
-    position: relative;
+    position: static;
+
+}
+
+.rightPage {
+    position: static;
+
 }
 
