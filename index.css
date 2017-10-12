@@ -36,9 +36,6 @@ body {
 
 .Rimg {
     height: 50px;
-
-    margin-left: 220px;
-    margin-top: 250px;
 }
 
 .homeB {
@@ -94,6 +91,7 @@ body {
 
 .rightPage {
     position: static;
+    height: 900px;
 
 }
 
