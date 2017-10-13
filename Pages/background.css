@@ -1,0 +1,28 @@
+#bwn {
+    font-family: "Noto Sans CJK JP Bold";
+    position: relative;
+    top: -150px;
+    left: 120px;
+}
+
+#bwn:hover {
+    color: #2948ff;
+    transition: color 1s;
+    animation-name: mover;
+    animation-duration: 3s;
+}
+
+@keyframes mover {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 30px;
+    }
+
+}
+#dav {
+    position: relative;
+    top: -120px;
+    left: 120px;
+}

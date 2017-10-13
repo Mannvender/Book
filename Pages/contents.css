@@ -4,7 +4,12 @@
     margin-left: 100px;
     margin-top: 100px;
     line-height: 50px;
-    font-weight: bolder;
+
+}
+
+li {
+    color: black;
+    font-weight: bold;
     font-family: "Liberation Mono";
 }
 
@@ -13,5 +18,20 @@
 }
 
 #hover1 :hover {
+
+}
+
+li:hover {
+    color: green;
+    transition: color 0.3s;
+}
+
+@keyframes textMagnifier {
+    from {
+        margin-left: 0px;
+    }
+    to {
+        margin-left: 40px;
+    }
 
 }
