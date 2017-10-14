@@ -13,12 +13,16 @@ li {
     font-family: "Liberation Mono";
 }
 
-#text1 {
+li li {
     display: none;
 }
 
-#hover1 :hover {
+li :hover {
+    color: red;
+}
 
+ul ul {
+    display: none;
 }
 
 li:hover {
