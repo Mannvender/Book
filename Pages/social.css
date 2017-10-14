@@ -1,0 +1,39 @@
+#social1 {
+    height: 900px;
+}
+
+#fb {
+    position: relative;
+    top: 180px;
+    left: 180px;
+}
+
+#insta {
+    position: relative;
+    top: 220px;
+    left: 180px;
+}
+
+#lkin {
+    position: relative;
+    top: 260px;
+    left: 180px;
+}
+
+#github {
+    position: relative;
+    top: 140px;
+    left: 30px;
+}
+
+#quora {
+    position: relative;
+    top: 180px;
+    left: 40px;
+}
+
+#spotify {
+    position: relative;
+    top: 230px;
+    left: 40px;
+}

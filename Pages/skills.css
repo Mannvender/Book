@@ -1,0 +1,14 @@
+.lpageimg {
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+#skills1 {
+    height: 900px;
+}
+
+.rpageimg {
+    position: relative;
+    top: 90px;
+    left: 0px;
+}

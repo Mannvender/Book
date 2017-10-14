@@ -24,7 +24,7 @@
 
 #dav {
     position: relative;
-    top: -120px;
+    top: -60px;
     left: 120px;
 
 }
@@ -33,3 +33,47 @@
     animation-name: mover;
     animation-duration: 3s;
 }
+
+#dps {
+    position: relative;
+    top: -60px;
+    left: 120px;
+
+}
+
+#dps:hover {
+    animation-name: mover;
+    animation-duration: 3s;
+}
+
+#nps {
+    position: relative;
+    top: -60px;
+    left: 120px;
+
+}
+
+#nps:hover {
+    animation-name: mover;
+    animation-duration: 3s;
+}
+
+.lpageimg {
+    position: relative;
+    top: -10px;
+    left: 120px;
+}
+.rpageimg {
+    position: relative;
+    top: 60px;
+    left: -3px;
+}
+#mait {
+    position: relative;
+    top: 50px;
+}
+#mait:hover {
+    animation-name: mover;
+    animation-duration: 3s;
+}
+
