@@ -47,10 +47,6 @@ body {
 
 .bText:hover {
     font-weight: bolder;
-    writing-mode: tb-rl;
-    margin-left: 37px;
-    margin-top: -5px;
-    font-family: fantasy;
     color: white;
     font-size: larger;
 }
@@ -60,7 +56,6 @@ body {
     top: 200px;
     position: fixed;
     alignment: left;
-    top: 200px;
     left: 0px;
 }
 
@@ -74,10 +69,10 @@ body {
 }
 
 .bText {
+    position: relative;
+    top: -65px;
+    left: 20px;
     font-weight: bolder;
-    writing-mode: tb-rl;
-    margin-left: 37px;
-    margin-top: -5px;
     font-family: fantasy;
     color: black;
     font-size: larger;
