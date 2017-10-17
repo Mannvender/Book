@@ -88,41 +88,41 @@ body {
 }
 
 .topnav {
-    background-color: #4e4e52;
-}
-
-.buttons {
-    float: left;
-    position: relative;
     margin: 0px;
-    top: -40px;
-    left: 0px;
-    height: 40px;
-    width: 200px;
-    border: #010102 solid;
+    border: 0px;
+    min-width:2000px;
+    left: -9px;
+    position: absolute;
+    top: -2px;
 }
 
-#home {
-    top: 0px;
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-#index {
-    top: 0px;
+li {
+    float: left;
+    background-color: aquamarine;
 }
 
-#history {
-    top: 0px;
+.links {
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    color: black;
+    font-family: "HP Simplified";
+    text-decoration: none;
+    display: block;
+    padding: 14px;
+    padding-left: 94px;
+    padding-right: 94px;
+    background-color:#b4362f
 }
-
-#skills {
-    top: 0px;
-}
-
-#contact {
-    top: 0px;
-}
-
-#fun {
-    top: 0px;
+.links:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #333131;
 }
 
