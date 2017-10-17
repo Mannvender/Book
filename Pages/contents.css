@@ -4,29 +4,17 @@
     margin-left: 100px;
     margin-top: 100px;
     line-height: 50px;
-    height: 900px;
+    height: 700px;
 
 }
 
-li {
+.contentsLI {
     color: black;
     font-weight: bold;
     font-family: "Liberation Mono";
 }
 
-li li {
-    display: none;
-}
-
-li :hover {
-    color: red;
-}
-
-ul ul {
-    display: none;
-}
-
-li:hover {
+.contentsLI:hover {
     color: green;
     transition: color 0.3s;
 }

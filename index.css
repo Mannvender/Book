@@ -38,43 +38,9 @@ body {
     height: 50px;
 }
 
-.homeB {
-    position: fixed;
-    alignment: left;
-    top: 100px;
-    left: 0px;
-}
-
 .bText:hover {
     font-weight: bolder;
     color: white;
-    font-size: larger;
-}
-
-.contentB {
-    /*background-attachmet: fixed;*/
-    top: 200px;
-    position: fixed;
-    alignment: left;
-    left: 0px;
-}
-
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    margin-left: 0px;
-}
-
-.bText {
-    position: relative;
-    top: -65px;
-    left: 20px;
-    font-weight: bolder;
-    font-family: fantasy;
-    color: black;
     font-size: larger;
 }
 
@@ -90,25 +56,26 @@ body {
 .topnav {
     margin: 0px;
     border: 0px;
-    min-width:2000px;
+    min-width: 2000px;
     left: -9px;
     position: absolute;
     top: -2px;
 }
 
-ul {
+.horizontalNav {
     display: inline;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+.navLI {
     float: left;
     background-color: aquamarine;
 }
 
 .links {
+    font-weight: bold;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
     color: black;
@@ -118,8 +85,9 @@ li {
     padding: 14px;
     padding-left: 94px;
     padding-right: 94px;
-    background-color:#b4362f
+    background-color: #b4362f
 }
+
 .links:hover {
     color: white;
     text-decoration: none;
