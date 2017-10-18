@@ -1,6 +1,6 @@
 body {
     background-image: url("./img/black1.jpg");
-    background-size: 1365px 1000px;
+    background-size: 1385px 1000px;
     background-repeat: no-repeat;
     align-self: center;
 }
@@ -56,7 +56,7 @@ body {
 .topnav {
     margin: 0px;
     border: 0px;
-    min-width: 1375px;
+    min-width: 1380px;
     left: -9px;
     position: absolute;
     top: -2px;
