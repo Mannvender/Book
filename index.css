@@ -1,18 +1,24 @@
 body {
-    background-image: url("./img/black1.jpg");
-    background-size: 1385px 1000px;
-    background-repeat: no-repeat;
-    align-self: center;
+    /*background-image: url("./img/black1.jpg");*/
+    /*background-size: 1385px 1000px;*/
+    /*background-repeat: no-repeat;*/
+    /*align-self: center;*/
 }
 
-.book {
+.container-fluid {
+    background-image: url("./img/book.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
     height: 900px;
     width: 1151px;
+    border: dashed black;
+}
+.book {
+
     /*background-color: aquamarine;*/
-    background-image: url("./img/book.png");
-    background-size: 1130px 900px;
-    background-repeat: no-repeat;
-    border: dashed;
     margin-top: 40px;
     margin-left: 80px;
     margin-right: 80px;
@@ -50,43 +56,8 @@ body {
 
 .rightPage {
     position: static;
-    height: 900px;
 }
 
-.topnav {
-    margin: 0px;
-    border: 0px;
-    min-width: 1380px;
-    left: -9px;
-    position: absolute;
-    top: -2px;
-}
-
-.horizontalNav {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navLI {
-    float: left;
-    background-color: aquamarine;
-}
-
-.links {
-    font-weight: bold;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
-    color: black;
-    font-family: "HP Simplified";
-    text-decoration: none;
-    display: block;
-    padding: 14px;
-    padding-left: 94px;
-    padding-right: 94px;
-    background-color: #b4362f
-}
 
 .links:hover {
     color: white;
