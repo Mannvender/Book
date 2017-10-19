@@ -4,8 +4,11 @@ body {
     /*background-repeat: no-repeat;*/
     /*align-self: center;*/
 }
+.SmallContainer {
+    background-size: cover;
+}
 
-.container-fluid {
+.LargeContainer {
     background-image: url("./img/book.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -16,6 +19,13 @@ body {
     width: 1151px;
     border: dashed black;
 }
+
+@media (max-width: 768px) and (min-width: 0px){
+    h1 {
+        background-color: #1b1e21;
+    }
+}
+
 .book {
 
     /*background-color: aquamarine;*/
@@ -26,28 +36,17 @@ body {
 }
 
 .heading {
-    margin: 70px;
     font-family: "Liberation Serif";
-    font-weight: bolder;
 }
 
 #title {
     position: relative;
     font-weight: bolder;
-    font-size: 65px;
     float: right;
-    top: 50px;
-    right: 110px;
 }
 
 .Rimg {
     height: 50px;
-}
-
-.bText:hover {
-    font-weight: bolder;
-    color: white;
-    font-size: larger;
 }
 
 .leftPage {
@@ -58,10 +57,4 @@ body {
     position: static;
 }
 
-
-.links:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #333131;
-}
 
